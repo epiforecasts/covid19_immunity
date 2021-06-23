@@ -1,2 +1,2 @@
-# covid19_immunity
-Covid-19 immunity estimates
+# Covid-19 immunity
+Covid-19 immunity estimates, using ONS antibody data
