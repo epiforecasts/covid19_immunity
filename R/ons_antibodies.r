@@ -73,4 +73,5 @@ ab <- antibody_data_raw %>%
          value = as.numeric(value) / 100) %>%
   pivot_wider()
 
+if (!file.exists(here::here("output"))) dir.create(here::here("output"))
 saveRDS(ab, here::here("output", "ab.rds"))
